@@ -28,7 +28,7 @@ public class AwsS3Service {
 
     // 사용자접근 인증
     @PostConstruct void initAmazonS3() {
-        //액세스 키와 비밀키로 사용자 인증
+        //액세스 키와 비밀키로 사용자 인
         AwsBasicCredentials credentials = AwsBasicCredentials.create(accessKey, secretKey);
 
         this.s3 = S3Client.builder()
