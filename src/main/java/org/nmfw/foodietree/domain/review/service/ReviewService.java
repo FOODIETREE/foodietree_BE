@@ -49,6 +49,21 @@ public class ReviewService {
     private final ReservationRepository reservationRepository;
     private final ProductRepository productRepository;
 
+    // 파일 업로드 처리
+
+    /**
+     *
+     * @param uploadFile - 클라이언트가 전송한 파일 객체
+     * @return 업로드된 파일의 URL
+     */
+    public String uploadProfileImg (MultipartFile uploadFile) {
+
+        //파일을 유니크하게 변경
+        String uniqueFileName = UUID.randomUUID()+ "_" + uploadFile.getOriginalFilename();
+
+        return "";
+    }
+
 
     // 이미지 저장 경로
     @Value("${env.upload.path}")

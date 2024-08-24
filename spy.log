@@ -1,0 +1,69 @@
+1724402538891|0|statement|connection 54|url jdbc:h2:mem:test|     alter table tbl_product         drop         foreign key if exists FK7cxptoau261emrj9a5yvu196d|     alter table tbl_product         drop         foreign key if exists FK7cxptoau261emrj9a5yvu196d
+1724402538892|0|statement|connection 54|url jdbc:h2:mem:test|     alter table tbl_review         drop         foreign key if exists FKa12qg0difn0jw3m9puletyuxx|     alter table tbl_review         drop         foreign key if exists FKa12qg0difn0jw3m9puletyuxx
+1724402538892|0|statement|connection 54|url jdbc:h2:mem:test|     alter table tbl_review_hashtag         drop         foreign key if exists FKn46plre1889m685vsptbeiv7|     alter table tbl_review_hashtag         drop         foreign key if exists FKn46plre1889m685vsptbeiv7
+1724402538892|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_admin_blacklist|     drop table if exists tbl_admin_blacklist
+1724402538892|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_customer|     drop table if exists tbl_customer
+1724402538892|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_customer_service|     drop table if exists tbl_customer_service
+1724402538892|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_fav_area|     drop table if exists tbl_fav_area
+1724402538893|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_fav_food|     drop table if exists tbl_fav_food
+1724402538893|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_fav_store|     drop table if exists tbl_fav_store
+1724402538893|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_food_category|     drop table if exists tbl_food_category
+1724402538893|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_issue|     drop table if exists tbl_issue
+1724402538893|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_issue_photo|     drop table if exists tbl_issue_photo
+1724402538894|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_notification|     drop table if exists tbl_notification
+1724402538894|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_product|     drop table if exists tbl_product
+1724402538894|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_reservation|     drop table if exists tbl_reservation
+1724402538894|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_review|     drop table if exists tbl_review
+1724402538894|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_review_hashtag|     drop table if exists tbl_review_hashtag
+1724402538894|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_store|     drop table if exists tbl_store
+1724402538894|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_store_approval|     drop table if exists tbl_store_approval
+1724402538894|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_store_blacklist|     drop table if exists tbl_store_blacklist
+1724402538894|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_store_holidays|     drop table if exists tbl_store_holidays
+1724402538894|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_verification_code|     drop table if exists tbl_verification_code
+1724402538894|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_waitlist|     drop table if exists tbl_waitlist
+1724402886460|0|statement|connection 54|url jdbc:h2:mem:test|     alter table tbl_product         drop         foreign key if exists FK7cxptoau261emrj9a5yvu196d|     alter table tbl_product         drop         foreign key if exists FK7cxptoau261emrj9a5yvu196d
+1724402886462|0|statement|connection 54|url jdbc:h2:mem:test|     alter table tbl_review         drop         foreign key if exists FKa12qg0difn0jw3m9puletyuxx|     alter table tbl_review         drop         foreign key if exists FKa12qg0difn0jw3m9puletyuxx
+1724402886462|0|statement|connection 54|url jdbc:h2:mem:test|     alter table tbl_review_hashtag         drop         foreign key if exists FKn46plre1889m685vsptbeiv7|     alter table tbl_review_hashtag         drop         foreign key if exists FKn46plre1889m685vsptbeiv7
+1724402886462|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_admin_blacklist|     drop table if exists tbl_admin_blacklist
+1724402886462|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_customer|     drop table if exists tbl_customer
+1724402886462|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_customer_service|     drop table if exists tbl_customer_service
+1724402886462|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_fav_area|     drop table if exists tbl_fav_area
+1724402886462|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_fav_food|     drop table if exists tbl_fav_food
+1724402886462|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_fav_store|     drop table if exists tbl_fav_store
+1724402886462|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_food_category|     drop table if exists tbl_food_category
+1724402886462|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_issue|     drop table if exists tbl_issue
+1724402886462|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_issue_photo|     drop table if exists tbl_issue_photo
+1724402886462|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_notification|     drop table if exists tbl_notification
+1724402886462|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_product|     drop table if exists tbl_product
+1724402886463|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_reservation|     drop table if exists tbl_reservation
+1724402886463|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_review|     drop table if exists tbl_review
+1724402886463|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_review_hashtag|     drop table if exists tbl_review_hashtag
+1724402886463|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_store|     drop table if exists tbl_store
+1724402886463|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_store_approval|     drop table if exists tbl_store_approval
+1724402886463|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_store_blacklist|     drop table if exists tbl_store_blacklist
+1724402886463|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_store_holidays|     drop table if exists tbl_store_holidays
+1724402886463|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_verification_code|     drop table if exists tbl_verification_code
+1724402886463|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_waitlist|     drop table if exists tbl_waitlist
+1724462154352|0|statement|connection 54|url jdbc:h2:mem:test|     alter table tbl_product         drop         foreign key if exists FK7cxptoau261emrj9a5yvu196d|     alter table tbl_product         drop         foreign key if exists FK7cxptoau261emrj9a5yvu196d
+1724462154354|0|statement|connection 54|url jdbc:h2:mem:test|     alter table tbl_review         drop         foreign key if exists FKa12qg0difn0jw3m9puletyuxx|     alter table tbl_review         drop         foreign key if exists FKa12qg0difn0jw3m9puletyuxx
+1724462154354|0|statement|connection 54|url jdbc:h2:mem:test|     alter table tbl_review_hashtag         drop         foreign key if exists FKn46plre1889m685vsptbeiv7|     alter table tbl_review_hashtag         drop         foreign key if exists FKn46plre1889m685vsptbeiv7
+1724462154354|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_admin_blacklist|     drop table if exists tbl_admin_blacklist
+1724462154354|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_customer|     drop table if exists tbl_customer
+1724462154355|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_customer_service|     drop table if exists tbl_customer_service
+1724462154355|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_fav_area|     drop table if exists tbl_fav_area
+1724462154355|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_fav_food|     drop table if exists tbl_fav_food
+1724462154355|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_fav_store|     drop table if exists tbl_fav_store
+1724462154355|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_food_category|     drop table if exists tbl_food_category
+1724462154355|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_issue|     drop table if exists tbl_issue
+1724462154355|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_issue_photo|     drop table if exists tbl_issue_photo
+1724462154355|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_notification|     drop table if exists tbl_notification
+1724462154355|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_product|     drop table if exists tbl_product
+1724462154355|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_reservation|     drop table if exists tbl_reservation
+1724462154355|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_review|     drop table if exists tbl_review
+1724462154355|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_review_hashtag|     drop table if exists tbl_review_hashtag
+1724462154355|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_store|     drop table if exists tbl_store
+1724462154355|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_store_approval|     drop table if exists tbl_store_approval
+1724462154355|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_store_blacklist|     drop table if exists tbl_store_blacklist
+1724462154355|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_store_holidays|     drop table if exists tbl_store_holidays
+1724462154355|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_verification_code|     drop table if exists tbl_verification_code
+1724462154355|0|statement|connection 54|url jdbc:h2:mem:test|     drop table if exists tbl_waitlist|     drop table if exists tbl_waitlist

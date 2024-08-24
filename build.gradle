@@ -70,7 +70,7 @@ dependencies {
     //querydsl 추가
     implementation "com.querydsl:querydsl-jpa:${queryDslVersion}"
     annotationProcessor "com.querydsl:querydsl-apt:${queryDslVersion}"
-    
+
     // query parameter log
     implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.5.8'
 
@@ -92,6 +92,9 @@ dependencies {
 
     // websocket
     implementation 'org.springframework.boot:spring-boot-starter-websocket'
+
+    //s3 upload
+    implementation 'software.amazon.awssdk:s3:2.17.52'
 }
 
 // 모든 테스트를 제외하고 빌드

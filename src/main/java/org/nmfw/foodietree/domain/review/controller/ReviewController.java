@@ -28,6 +28,19 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 @RequestMapping("/review")
 public class ReviewController {
+
+    // test file upload 처리 for aws
+    @PostMapping("/file/upload")
+    public ResponseEntity<?> fileUpload(
+            @RequestPart(value = "profileImg") MultipartFile uploadFile,
+            @RequestPart(value = "userData") ReviewSaveDto dto
+    ) {
+        log.info("userData {}", dto);
+        log.info("uploadFile {}", uploadFile);
+        return ResponseEntity.ok().body("업로드 요청 완료 ~ ");
+    }
+
+
     private final ReviewService reviewService;
 
     @Value("${env.upload.path}")
