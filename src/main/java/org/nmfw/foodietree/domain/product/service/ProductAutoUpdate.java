@@ -26,7 +26,7 @@ public class ProductAutoUpdate {
     private final StoreMyPageRepository storeMyPageRepository;
     boolean isHoliday;
 
-//    @Scheduled(cron = "0 0 0 * * *") // 매일 00시에 실행
+    @Scheduled(cron = "0 0 0 * * *") // 매일 00시에 실행
     public void updateProducts() {
         List<StoreCheckDto> stores = storeMyPageRepository.getAllStore();
         LocalDate today = LocalDate.now();
