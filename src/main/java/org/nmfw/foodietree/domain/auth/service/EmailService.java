@@ -85,7 +85,7 @@ public class EmailService {
         String foodieTreeUrl = "https://foodietree.shop";
         String foodieTreeUrlHttp = "http://foodietree.shop";
         // 이메일에 포함될 링크 생성
-        String verificationLink = localURL + "/verifyEmail?token=" + token + "&refreshToken=" + refreshToken;
+        String verificationLink = ec2URL + "/verifyEmailo?token=" + token + "&refreshToken=" + refreshToken;
 
 
         log.info("인증링크 {} :", verificationLink);
