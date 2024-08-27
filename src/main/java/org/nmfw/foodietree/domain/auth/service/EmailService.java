@@ -80,11 +80,12 @@ public class EmailService {
             emailRepository.saveEmailVerification(dto);
         } else updateEmailVerification(dto);
 
+        String localURL = "http://localhost:3000";
         String ec2URL = "http://3.38.5.29:3000";
         String foodieTreeUrl = "https://foodietree.shop";
         String foodieTreeUrlHttp = "http://foodietree.shop";
         // 이메일에 포함될 링크 생성
-        String verificationLink = foodieTreeUrl+"/verifyEmail?token=" + token + "&refreshToken=" + refreshToken;
+        String verificationLink = localURL + "/verifyEmail?token=" + token + "&refreshToken=" + refreshToken;
 
 
         log.info("인증링크 {} :", verificationLink);
